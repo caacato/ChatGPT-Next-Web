@@ -108,6 +108,38 @@ export const DEFAULT_MODELS = [
     name: "gpt-3.5-turbo-16k-0613",
     available: true,
   },
+  {
+    name: "ERNIE-Bot",
+    available: true,
+  },
+  {
+    name: "ERNIE-Bot-turbo",
+    available: true,
+  },
+  {
+    name: "qwen-v1",
+    available: true,
+  },
+  {
+    name: "qwen-plus-v1", //未支持
+    available: true,
+  },
+  {
+    name: "SparkDesk",
+    available: true,
+  },
+  {
+    name: "chatglm_pro",
+    available: true,
+  },
+  {
+    name: "chatglm_std",
+    available: true,
+  },
+  {
+    name: "chatglm_lite",
+    available: true,
+  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
