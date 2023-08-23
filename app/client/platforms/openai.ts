@@ -137,6 +137,7 @@ export class ChatGPTApi implements LLMApi {
 
               if (res.status === 401) {
                 responseTexts.push(Locale.Error.Unauthorized);
+                location.href = "/#/auth";//强制跳转访问码页面
               }
 
               if (extraInfo) {
